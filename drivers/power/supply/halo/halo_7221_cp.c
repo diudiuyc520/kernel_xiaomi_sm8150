@@ -32,6 +32,10 @@
 
 #define DEVICE_NAME "HALO7221_cp"
 
+#ifndef POWER_SUPPLY_PROP_DIV_2_MODE
+#define POWER_SUPPLY_PROP_DIV_2_MODE  /* 使用正确的属性值 */
+#endif
+
 struct halo7221_dev;
 
 struct halo7221_dt_props {
