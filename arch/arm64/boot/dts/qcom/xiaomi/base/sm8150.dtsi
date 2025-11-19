@@ -6,7 +6,7 @@
 
 &firmware {
 	android {
-		boot_devices = "soc/1d84000.ufshc";
+		boot_devices = "soc/8804000.ufshc";
 	};
 };
 
